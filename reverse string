@@ -1,0 +1,15 @@
+import java.util.*;
+class Rev{
+      public static void main(String args[])
+      {
+      String str,reverse="";
+      Scanner s1=new Scanner(System.in);
+      str=s1.nextLine();
+      int len=str.length();
+      for(int i=len-1;i>=0;i--)
+      {
+      reverse+=str.charAt(i);
+      }
+      System.out.println(reverse);
+      }
+    }
